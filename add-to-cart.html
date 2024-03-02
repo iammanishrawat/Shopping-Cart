@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Cart Page</title>
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="topBar">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo" class="img-fluid">
+                </div>
+                <div class="counter">
+                    <img src="/img/shopping-cart.svg" alt="">
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="py-5">
+        <div class="container">
+            <h2>Shopping Cart </h2>
+            <div class="cartSection">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_ybvK7H1wdxDcEjTbSUVSIjRlXQ20TKTfqY6XsSWaLB_qrT4nBezJxszNJpbW2-qM4U&usqp=CAU" alt="shoe">
+                </div>
+                <div class="productName">
+                    <h3>Nike Sport Shoes (Red Premium)</h3>
+                </div>
+                <div class="Changer">
+                    <div class="minus">
+                        <button class="button">-</button>
+                    </div>
+                    <div class="counter">
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="plus">
+                        <button class="button">+</button>
+                    </div>
+                </div>
+                <div class="productPrice">
+                    <h4>INR 10,999</h4>
+                </div>
+                <div class="delete">
+                   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRyYXNoLTIiPjxwYXRoIGQ9Ik0zIDZoMTgiLz48cGF0aCBkPSJNMTkgNnYxNGMwIDEtMSAyLTIgMkg3Yy0xIDAtMi0xLTItMlY2Ii8+PHBhdGggZD0iTTggNlY0YzAtMSAxLTIgMi0yaDRjMSAwIDIgMSAyIDJ2MiIvPjxsaW5lIHgxPSIxMCIgeDI9IjEwIiB5MT0iMTEiIHkyPSIxNyIvPjxsaW5lIHgxPSIxNCIgeDI9IjE0IiB5MT0iMTEiIHkyPSIxNyIvPjwvc3ZnPg==" alt="">
+                </div>
+            </div>
+
+            <div class="cartSection">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_ybvK7H1wdxDcEjTbSUVSIjRlXQ20TKTfqY6XsSWaLB_qrT4nBezJxszNJpbW2-qM4U&usqp=CAU" alt="shoe">
+                </div>
+                <div class="productName">
+                    <h3>Nike Sport Shoes (Red Premium)</h3>
+                </div>
+                <div class="Changer">
+                    <div class="minus">
+                        <button class="button">-</button>
+                    </div>
+                    <div class="counter">
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="plus">
+                        <button class="button">+</button>
+                    </div>
+                </div>
+                <div class="productPrice">
+                    <h4>INR 10,999</h4>
+                </div>
+                <div class="delete">
+                   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRyYXNoLTIiPjxwYXRoIGQ9Ik0zIDZoMTgiLz48cGF0aCBkPSJNMTkgNnYxNGMwIDEtMSAyLTIgMkg3Yy0xIDAtMi0xLTItMlY2Ii8+PHBhdGggZD0iTTggNlY0YzAtMSAxLTIgMi0yaDRjMSAwIDIgMSAyIDJ2MiIvPjxsaW5lIHgxPSIxMCIgeDI9IjEwIiB5MT0iMTEiIHkyPSIxNyIvPjxsaW5lIHgxPSIxNCIgeDI9IjE0IiB5MT0iMTEiIHkyPSIxNyIvPjwvc3ZnPg==" alt="">
+                </div>
+            </div>
+
+            <div class="cartSection">
+                <div class="thumbnail">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_ybvK7H1wdxDcEjTbSUVSIjRlXQ20TKTfqY6XsSWaLB_qrT4nBezJxszNJpbW2-qM4U&usqp=CAU" alt="shoe">
+                </div>
+                <div class="productName">
+                    <h3>Nike Sport Shoes (Red Premium)</h3>
+                </div>
+                <div class="Changer">
+                    <div class="minus">
+                        <button class="button">-</button>
+                    </div>
+                    <div class="counter">
+                        <input type="text" class="form-control" placeholder="0">
+                    </div>
+                    <div class="plus">
+                        <button class="button">+</button>
+                    </div>
+                </div>
+                <div class="productPrice">
+                    <h4>INR 10,999</h4>
+                </div>
+                <div class="delete">
+                   <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXRyYXNoLTIiPjxwYXRoIGQ9Ik0zIDZoMTgiLz48cGF0aCBkPSJNMTkgNnYxNGMwIDEtMSAyLTIgMkg3Yy0xIDAtMi0xLTItMlY2Ii8+PHBhdGggZD0iTTggNlY0YzAtMSAxLTIgMi0yaDRjMSAwIDIgMSAyIDJ2MiIvPjxsaW5lIHgxPSIxMCIgeDI9IjEwIiB5MT0iMTEiIHkyPSIxNyIvPjxsaW5lIHgxPSIxNCIgeDI9IjE0IiB5MT0iMTEiIHkyPSIxNyIvPjwvc3ZnPg==" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="subtotal">
+                <h4>Sub Total</h4>
+                <h1>INR 32,997</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
